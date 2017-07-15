@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background: url(../img/bg.png);
+}
+
+#main{
+    height: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#chat {
+    justify-content: space-between;
+    height: 100%;
+}
+
+#chat-window, #chat{
+    margin: 0 10px;
+}
+
+#chat form textarea{
+    margin: 0;
+    padding: 0;
+}
+
+#chat-window{
+    border: 1px solid #5bc0de;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+#chat textarea{
+    width: 100%;
+}
+
+#main footer{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
