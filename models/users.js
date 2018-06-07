@@ -1,7 +1,7 @@
 module.exports = function (pool) {
     return {
-        findOne: function (username, callback) {
-            pool.query('SELECT * FROM users WHERE ?', {username:username}, function (err, user) {
+        findOne: function (nickname, callback) {
+            pool.query('SELECT * FROM users WHERE ?', {nickname}, function (err, user) {
                 callback(err, user[0]);
             });
         },
